@@ -1,5 +1,5 @@
 (ENGLISH)
-#####################################################################################################################################################
+###################################################################################
 # C_FirstTool
 ScriptClass.
 
@@ -18,9 +18,9 @@ We must create a repository that includes two files:
 2. 'tool.cpp' contains another sequence of C++ commands using the same function to perform 
    the tasks proposed in class (Wireshark, TCPDump, NIC, Kernel, Hostname, connection, and ping).   
    
-#####################################################################################################################################################
+###################################################################################
 (SPANISH)
-#####################################################################################################################################################
+###################################################################################
 # C_FirstTool
 Scriptclase.
 
@@ -39,5 +39,5 @@ del sistema y una instalación de los paquetes necesarios. (Más información en
 2. 'herramienta.cpp' contiene otra sucesióon de comandos en c++ haciendo uso de la misma función para ejecutar las
 tareas propuestas en clase (Wireshark, TCPDump, NIC, Kernel, Hostname, conexión y ping.).
 
-#####################################################################################################################################################
+###################################################################################
 
