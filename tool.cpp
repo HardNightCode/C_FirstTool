@@ -25,11 +25,13 @@ case 1:{
 cout<<"Showing network interfaces and IP address...\n";
 system("sudo ifconfig -a");
 system("hostname -I");
+cout<<endl;
 break;}
     
     case 2: {
     cout<<"Opening Wireshark...\n";
     system("sudo wireshark");
+    cout<<endl;
     break;}
 
         case 3: {
@@ -43,34 +45,45 @@ break;}
             if (filter == 1) {
             system("sudo tcpdump icmp");}
                 else if (filter == 2) {
-                system("sudo tcpdump arp");}
+                system("sudo tcpdump arp");
+                cout<<endl;}
                     else {
                     cout<<"Invalid option.\n";}
+                    cout<<endl;
         break;}
 
             case 4: {
             cout<<"Showing information about kernel version and operating system...\n";
             system("uname -a && cat /etc/*-release | grep DISTRIB_DESCRIPTION");
+            cout<<endl;
             break;}
 
                 case 5: {
                 cout<<"Showing username and host name...\n";
+                
                 cout<<"\nThe username is: ";
+                cout<<endl;
                 system("echo $USER");
+                
                 cout<<"\n\n The host name is: ";
+                cout<<endl;
                 system("hostname");
+                cout<<endl;
                 break;}
 
                     case 6: {
                     cout<<"Verifying connection with Google...\n";
                     system("ping -c 6 google.com");
+                    cout<<endl;
                     break;}
 
                         case 7: {
+                        cout<<endl;
                         break;}
 
         default: {
         cout<<"Invalid option. Please choose a valid option.\n";
+        cout<<endl;
         break;}
 
 
